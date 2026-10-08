@@ -1,0 +1,17 @@
+<GenerateWidget type="inline_visualization" height="600px">
+<skills></skills>
+
+**Idea:** An interactive tool to calculate which digital asset path aligns best with your goals based on your timeline, skills, and marketing preferences.
+**Visual type:** Interactive Fit Score Calculator with horizontal bar chart outputs.
+**Data specification:**
+- **Data structure:** Two output scores (Utility Products, Faceless Media) ranging from 0-100.
+- **Initial values:** Base weights for each path.
+  - Speed to Income: Utility (+10), Faceless (-10)
+  - Need Passive Traffic: Utility (-10), Faceless (+10)
+  - Love Research & Storytelling: Utility (-5), Faceless (+15)
+  - Love Logic & Spreadsheets: Utility (+15), Faceless (-5)
+- **Mapping:** User slider inputs (-5 to +5 scale) are multiplied by the base weights of each path to calculate a total fit score. Rendered as two dynamic horizontal progress bars filling up.
+**User controls:** 4 sliders: "How fast do you need income?" (Patience vs Urgency), "Traffic Strategy" (Hustle/Ads vs Algorithm/Passive), "Skill Preference" (Story/Video vs Logic/Data).
+**Interactivity:** Adjusting sliders dynamically updates the match percentage and recommends a winner.
+**Animation:** Smooth transition of the progress bars when sliders move.
+</GenerateWidget>
